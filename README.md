@@ -127,14 +127,6 @@ node index.js list-chats --count 10
 
 ---
 
-## Notes
-
-- Session is stored in `.wwebjs_auth/` (gitignored — never commit this)
-- Only one Chrome instance can use the session at a time — kill orphaned processes if you get a lock error
-- Uses Puppeteer under the hood to run a headless Chrome with WhatsApp Web
-
----
-
 ## License
 
 MIT
